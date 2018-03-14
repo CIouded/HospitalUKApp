@@ -1,0 +1,4 @@
+    function confirmTest(){
+      confirm('BAMBOOZLED!!');
+
+    }

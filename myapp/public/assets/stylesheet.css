@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+#title{
+    font-family: "Roboto Light";
+    text-align: left;
+    margin-left: 2%;
+    color: #4d4d4d;
+}
+
+#map {
+    height: 80%;
+}
+
+#filterHeader {
+    background-color: lightgray;
+    /*overflow: auto; */
+}
+
+/* Drop down menu */
+.dropbtn {
+    background-color: lightgray;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: bottom;
+    color: #4d4d4d;
+    font-family: "Roboto Light";
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: gainsboro;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #4d4d4d;
+}
+
+/*Table style */
+
+.tableStyle{
+    font-family: "Roboto Light";
+    border: #888888;
+    border-radius: 10px;
+}
+tr{
+    font-family: Roboto ;
+}
