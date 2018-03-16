@@ -1,6 +1,7 @@
 <link rel="stylesheet" type="text/css" href="../assets/stylesheet.css">
 <script type="text/javascript" src="../scripts/testScript.js">  </script>
 
+
 <h1 id="title">A Hospital Information Web Application (UK)</h1>
 
     <div class="navbar">
@@ -94,4 +95,12 @@
                 </div>
             </div>
         </div>
+
+        {{#each hospitalList}}
+         <ul>
+           <li>
+             <a href="index/{{name}}">Name: {{name}}</a>
+           </li>
+         </ul>
+        {{/each }}
     </div>
