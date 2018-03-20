@@ -14,6 +14,7 @@ h1{
     text-align: left;
     margin-left: 2%;
     color: #4d4d4d;
+    background-color: gainsboro;
 }
 
 #map {
@@ -24,6 +25,28 @@ h1{
     background-color: lightgray;
     /*overflow: auto; */
 }
+
+#sortListAlpha {
+    font-family: "Roboto Light";
+    font-size: 20px;
+    color: #4d4d4d;
+}
+/* Link Design*/
+a:link {
+    text-decoration: none;
+    color: gray
+}
+
+a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
 
 /* Drop down menu */
 .dropbtn {

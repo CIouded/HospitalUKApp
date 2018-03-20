@@ -1,0 +1,50 @@
+{{#arrTemp2}}
+
+    <h1> {{name}}</h1>
+
+    <table class="tableStyle">
+
+        <tr>
+            <th>Address</th>
+            <td>{{adress}}</td>
+        </tr>
+        <tr>
+            <th>City</th>
+            <td>{{city}}</td>
+        </tr>
+        <tr>
+            <th>County:</th>
+            <td>{{county}}</td>
+        </tr>
+        <tr>
+            <th>Sector:</th>
+            <td>{{sector}}</td>
+        </tr>
+        <tr>
+            <th>Email:</th>
+            <td>{{email}}</td>
+        </tr>
+        <tr>
+            <th>Phone:</th>
+            <td>{{phone}}</td>
+        </tr>
+{{/arrTemp2}}
+{{#arrTemp}}
+        <tr>
+            <th>Number of Beds:</th>
+            <td>{{numBed}}</td>
+        </tr>
+        <tr>
+            <th>Location:</th>
+            <td>{{latitude}}, {{longitude}}</td>
+        </tr>
+    {{/arrTemp}}
+    </table>
+
+<h3> Pharmacies close to {{name}} </h3>
+
+{{#arrTemp3}}
+    <ul>
+        <li> {{p_name}}</li>
+    </ul>
+{{/arrTemp3}}

@@ -52,6 +52,8 @@ query.execute(SDconnection, 'HackerBoyHospitialDB', sparqlQueries.hospitalInfoQu
 
 });
 
+
+
 app.set("view enegine", "hbs");
 
 app.get('/', function (request, response) {
@@ -156,8 +158,6 @@ SparqlHttp.fetch = fetch
 
 var endpoint = new SparqlHttp({endpointUrl: 'http://dbpedia.org/sparql'})
 var endpointGeo = new SparqlHttp({endpointUrl: 'http://linkedgeodata.org/sparql'})
-
-
 
 
 

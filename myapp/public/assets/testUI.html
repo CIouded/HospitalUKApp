@@ -10,112 +10,41 @@
 <h1 id="title">Hospitals of UK</h1>
 
 
-    <div id="filterHeader">
-        <!-- Selction of County -->
-        <div class="dropdown">
-            <button class="dropbtn">County</button>
-            <div class="dropdown-content">
-                <a href="execute query">Avon</a>
-                <a href="execute query">Bedforshire</a>
-                <a href="execute query">Berkshire</a>
-                <a href="execute query">Buckinghamshire</a>
-                <a href="execute query">Cambridgeshire</a>
-                <a href="execute query">Cheshire</a>
-                <a href="execute query">Cleveland</a>
-                <a href="execute query">Cornwall</a>
-                <a href="execute query">County Durham</a>
-                <a href="execute query">Bedforshire</a>
-                <a href="execute query">Cumbria</a>
-                <a href="execute query">Derbyshire</a>
-                <a href="execute query">Devon</a>
-                <a href="execute query">Dorset</a>
-                <a href="execute query">Durham</a>
-                <a href="execute query">Bedforshire</a>
-                <a href="execute query">East Sussex</a>
-                <a href="execute query">East Yorkshire</a>
-                <a href="execute query">Bedforshire</a>
-                <a href="execute query">Essex</a>
-                <a href="execute query">Gloucestershire</a>
-                <a href="execute query">Greater London</a>
-                <a href="execute query">Greater Manchester</a>
-                <a href="execute query">Hampshire</a>
-                <a href="execute query">Herefordshire</a>
-                <a href="execute query">Hertfordshire</a>
-                <a href="execute query">Kent</a>
-                <a href="execute query">King's Lynn</a>
-                <a href="execute query">Lancashire</a>
-                <a href="execute query">Leichestershire</a>
-                <a href="execute query">Lincolnshire</a>
-                <a href="execute query">Merseyside</a>
-                <a href="execute query">Middlesex</a>
-                <a href="execute query">Norfolk</a>
-                <a href="execute query">North Humberside</a>
-                <a href="execute query">North Yorkshire</a>
-                <a href="execute query">Northamptonshire</a>
-                <a href="execute query">Northumberland</a>
-                <a href="execute query">Norwich</a>
-                <a href="execute query">Nottinghamshire</a>
-                <a href="execute query">Oxfordshire</a>
-                <a href="execute query">Shropshire</a>
-                <a href="execute query">Somerset</a>
-                <a href="execute query">South Yorkshire</a>
-                <a href="execute query">Staffordshire</a>
-                <a href="execute query">Suffolk</a>
-                <a href="execute query">Surrey</a>
-                <a href="execute query">Sussex</a>
-                <a href="execute query">Tyne and Wear</a>
-                <a href="execute query">Warwickshire</a>
-                <a href="execute query">West Midlands</a>
-                <a href="execute query">West Sussex</a>
-                <a href="execute query">West Yorkshire</a>
-                <a href="execute query">Wiltshire</a>
-                <a href="execute query">Worcestershire</a>
-                <a href="execute query">Yorkshire</a>
-                <a href="execute query">Yorkshire </a>
-            </div>
 
-        </div>
-
-        <!-- Selction of Sector -->
-        <div class="dropdown">
-            <button class="dropbtn">Sector</button>
-            <div class="dropdown-content" id="sector">
-                <a href="execute query">National Health Service (NHS)</a>
-                <a href="execute query"> Independant Sector</a>
-            </div>
-        </div>
-        <!-- Selction of Mental Hospital -->
-
-        <div class="dropdown">
-            <button class="dropbtn">Mental Hospitals </button>
-            <div class="dropdown-content" id="mentalHosptial">
-                <a href="execute query">Yes</a>
-                <a href="execute query">No</a>
-
-            </div>
-        </div>
-    </div>
 
     <table class="tableStyle">
+
         <tr>
-            <th>Description of Data</th>
-            <th> Actual Data</th>
+            <th>Address</th>
+            <td>{{adress}}</td>
         </tr>
         <tr>
-            <td>Name</td>
-            <td>Name of Hosptial</td>
+            <th>City</th>
+            <td>{{city}}</td>
         </tr>
         <tr>
-            <td>Phone</td>
-            <td>Phonenumber to Hospital</td>
+            <th>County:</th>
+            <td>{{county}}</td>
         </tr>
         <tr>
-            <td>Email</td>
-            <td>Email to Hospital</td>
+            <th>Sector:</th>
+            <td>{{sector}}</td>
         </tr>
         <tr>
-            <td>Sector</td>
-            <td>Type of Hospital Sector</td>
+            <th>Email:</th>
+            <td>{{email}}</td>
+        </tr>
+        <tr>
+            <th>Phone:</th>
+            <td>{{phone}}</td>
+        </tr>
+        <tr>
+            <th>Number of Beds:</th>
+            <td>{{numBed}}</td>
+        </tr>
+        <tr>
+            <th>Location:</th>
+            <td>{{latitude}}, {{longitude}}</td>
         </tr>
     </table>
 

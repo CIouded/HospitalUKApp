@@ -1,0 +1,19 @@
+<!--
+    <ul>
+
+        <li>Address: {{address}} </li>
+        <li>City: {{city}} </li>
+        <li>County: {{county}} </li>
+        <li>Sector: {{sector}}    </li>
+        <li>Email: {{email}}</li>
+        <li>Phone: {{phone}}</li>
+{{/arrTemp2}}
+{{#arrTemp}}
+        <li>Number of Beds: {{numBed}}</li>
+        <li>Location: {{latitude}} {{longitude}}</li>
+{{/arrTemp}}
+{{#arrTemp3}}
+        <li>{{p_name}}</li>
+{{/arrTemp3}}
+    </ul>
+//-->
